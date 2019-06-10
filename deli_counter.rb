@@ -5,11 +5,12 @@ def line(array)
     array.each_with_index do |index, name|
       index += 1 
       puts "#{index}. #{name}"
-      end
+    end
   else 
     puts "The line is currently empty."
   end 
 end
+
 def take_a_number(array, name)
       array.push(name)
   counter = 0
