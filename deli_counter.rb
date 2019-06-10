@@ -18,11 +18,9 @@ def take_a_number(array, name)
   counter = 0
   array.each do |name|
     counter += 1 
-    string  << "Welcome, #{name}. You are number #{counter} in line."
+    puts "Welcome, #{name}. You are number #{counter} in line."
   end
    
-   
-   puts string
   end
     
     
