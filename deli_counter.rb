@@ -15,9 +15,7 @@ end
 def take_a_number(array, name)
   array.push(name)
   position = array.length + 1
-  array.last do |name|
-    puts "Welcome, #{name}. You are number #{position} in line."
-  end
+  puts "Welcome, #{name}. You are number #{position} in line."
   array
 end
     
