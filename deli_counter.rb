@@ -4,7 +4,7 @@ def line(array)
     string = "The line is currently: "
     array.each_with_index do |index, name|
       index += 1 
-      string << "#{index}. #{name}"
+      string << "#{index.to_s}. #{name}"
     end
   else 
     string = "The line is currently empty."
