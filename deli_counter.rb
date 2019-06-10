@@ -15,8 +15,8 @@ end
 def take_a_number(array, name)
   array.push(name)
   string = String.new
-  counter = 0
-  array.each do |name|
+  postion = array.length
+  array.last do |name|
     counter += 1 
     puts "Welcome, #{name}. You are number #{counter} in line."
   end
