@@ -20,13 +20,13 @@ def take_a_number(array, name)
   array.each do |name|
     counter += 1 
     complete_array.push("Welcome, #{name}. You are number #{counter} in line.")
-     end
-     string = complete_array.join(" ")
-     complete_array = string.split(". ")
-     complete_array = complete_array.uniq
-     string = complete_array.join(" ")
-     
-     puts string
-    end
+   end
+   string = complete_array.join(" ")
+   complete_array = string.split(". ")
+   complete_array = complete_array.uniq
+   string = complete_array.join(" ")
+   
+   puts string
+  end
     
     
