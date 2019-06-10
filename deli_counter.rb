@@ -14,14 +14,13 @@ end
 
 def take_a_number(array, name)
   array.push(name)
-  complete_array = Array.new
   string = String.new
   counter = 0
   array.each do |name|
     counter += 1 
-    complete_array.push("Welcome, #{name}. You are number #{counter} in line.")
+    string  << "Welcome, #{name}. You are number #{counter} in line. "
   end
-   string = complete_array.join(" ")
+   
    
    puts string
   end
