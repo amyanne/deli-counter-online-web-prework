@@ -2,7 +2,6 @@ require "pry"
 def line(array)
   if array.length > 0 
     puts "The line is currently: "
-    binding.pry
     array.each_with_index do |index, name|
       index += 1 
       puts "#{index}. #{name}"
