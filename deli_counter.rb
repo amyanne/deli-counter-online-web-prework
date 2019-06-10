@@ -1,14 +1,15 @@
 require "pry"
 def line(array)
   if array.length > 0 
-    puts "The line is currently: "
+    string = "The line is currently: "
     array.each_with_index do |index, name|
       index += 1 
-      puts "#{index}. #{name}"
+      string << "#{index}. #{name}"
     end
   else 
-    puts "The line is currently empty."
+    string = "The line is currently empty."
   end 
+  string
 end
 
 def take_a_number(array, name)
