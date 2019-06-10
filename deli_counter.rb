@@ -21,8 +21,9 @@ def take_a_number(array, name)
     counter += 1 
     complete_array.push("Welcome, #{name}. You are number #{counter} in line.")
      end
-     complete_array.uniq 
      string = complete_array.join(" ")
+     complete_array = string. 
+     
      puts string
     end
     
