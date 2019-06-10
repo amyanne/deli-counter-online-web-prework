@@ -2,7 +2,7 @@ require "pry"
 def line(array)
   if array.length > 0 
     string = "The line is currently: "
-    array.each_with_index do |index, name|
+    array.each_with_index do |name, index|
       index += 1 
       string << "#{index.to_s}. #{name}"
     end
