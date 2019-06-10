@@ -20,7 +20,7 @@ def take_a_number(array, name)
     counter += 1 
     puts "Welcome, #{name}. You are number #{counter} in line."
   end
-   
+  array
   end
     
     
