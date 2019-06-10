@@ -20,6 +20,7 @@ def take_a_number(array, name)
     counter += 1 
     complete_array.push("Welcome, #{name}. You are number #{counter} in line.")
      end
+     complete_array.uq
      puts complete_array
     end
     
