@@ -9,7 +9,7 @@ def line(array)
   else 
     string = "The line is currently empty."
   end 
-  string
+  puts string
 end
 
 def take_a_number(array, name)
