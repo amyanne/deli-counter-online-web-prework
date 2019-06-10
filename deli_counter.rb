@@ -13,9 +13,9 @@ def line(array)
 end
 
 def take_a_number(array, name)
-      array.push(name)
-      complete_array = Array.new
-      string = String.new
+  array.push(name)
+  complete_array = Array.new
+  string = String.new
   counter = 0
   array.each do |name|
     counter += 1 
