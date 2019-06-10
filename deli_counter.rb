@@ -19,9 +19,7 @@ def take_a_number(array, name)
   array.each do |name|
     counter += 1 
     complete_array.push("Welcome, #{name}. You are number #{counter} in line.")
-    
-    
-  end
+     end
     end
     
     
